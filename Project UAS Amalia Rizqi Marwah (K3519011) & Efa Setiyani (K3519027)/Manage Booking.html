@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<title>Manage Booking</title>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="images/logo_garuda2.png" width="150" height="60" class="d-inline-block align-top" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+            		<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Flight
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            			<a class="dropdown-item" href="#">
+            				<div class="custom-control custom-radio custom-control-inline">
+            					<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            					<label class="custom-control-label" for="customRadioInline1">One Way</label>
+              				</div>
+              				<div class="custom-control custom-radio custom-control-inline">
+                			<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                			<label class="custom-control-label" for="customRadioInline2">Round Trip</label>
+              				</div>
+                			
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">From</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Jakarta</option>
+                    				<option value="1">Jakarta</option>
+				                    <option value="2">Yogyakarta</option>
+				                    <option value="3">Bali</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">To</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Yogyakarta</option>
+                    				<option value="1">Jakarta</option>
+				                    <option value="2">Yogyakarta</option>
+				                    <option value="3">Bali</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Depart</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Select Date</option>
+                    				<option value="1">One</option>
+				                    <option value="2">Two</option>
+				                    <option value="3">Three</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Return</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Select Date</option>
+                    				<option value="1">One</option>
+				                    <option value="2">Two</option>
+				                    <option value="3">Three</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Person</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>1 Person</option>
+                    				<option value="1">1</option>
+				                    <option value="2">2</option>
+				                    <option value="3">3</option>
+				                </select>
+                			</div>
+                			<button type="submit" class="btn btn-primary">Search Flight</button>
+                		</a>
+                	</div>
+                </li>
+                <li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel Information
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Travel Information.html" target="blank">News & Updates</a>
+                        <a class="dropdown-item" href="Travel Information.html" target="blank">Baggage Information</a>
+                        <a class="dropdown-item" href="Travel Information.html" target="blank">Flight Routes</a>
+                        <a class="dropdown-item" href="Travel Information.html" target="blank">Fleet Revitalization</a>
+                        <a class="dropdown-item" href="Travel Information.html" target="blank">Favourite Destination</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Booking
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Manage Booking.html" target="blank">Booking Status</a>
+                        <a class="dropdown-item" href="Manage Booking.html" target="blank">Fare Types</a>
+                        <a class="dropdown-item" href="Manage Booking.html" target="blank">Payment Guide</a>
+                        <a class="dropdown-item" href="Manage Booking.html" target="blank">Refund Request</a>
+                        <a class="dropdown-item" href="Manage Booking.html" target="blank">Booking change</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Favourite Destination 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Favourite Destination.html" target="blank">Ambon</a>
+                        <a class="dropdown-item" href="Favourite Destination.html" target="blank">Bali</a>
+                        <a class="dropdown-item" href="Favourite Destination.html" target="blank">Batam</a>
+                        <a class="dropdown-item" href="Favourite Destination.html" target="blank">Jayapura</a>
+                        <a class="dropdown-item" href="Favourite Destination.html" target="blank">Manado</a>
+            		</div>
+          		</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 pt-3 my-3 border">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Booking Status</a>
+                    <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Fare Types</a>
+                    <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Payment Guide</a>
+                    <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Refund Request</a>
+                    <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Booking change</a>
+            </div>  
+            </div>
+            <div class="col-md-8 col-sm-12 pt-3 my-3">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your booking code">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Find My Booking</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Order Number">
+                                <label for="exampleInputEmail1"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                                <label for="exampleFormControlTextarea1">Massage</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Massage</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Order Number">
+                                <label for="exampleInputEmail1"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                                <label for="exampleFormControlTextarea1">Massage</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Massage</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+        <footer class="page-footer container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h6 class="text-uppercase font-weight-bold">Fly Garuda Indonesia</h6>
+                        <p>About Us
+                            <br/>Terms of Use
+                            <br/>Privacy Policy
+                            <br/>FAQ
+                            <br/>Contact Us</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h6 class="text-uppercase font-weight-bold">Travel Information</h6>
+                        <p>News & Updates
+                            <br/>Baggage Information
+                            <br/>Favourite Destination
+                            <br/>Fleet Revitalization
+                            <br/>Flight Routes</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h6 class="text-uppercase font-weight-bold">Manage Booking</h6>
+                        <p>Booking Status
+                            <br/>Fare Types
+                            <br/>Payment Guide
+                            <br/>Refund Request
+                            </br> Booking Change</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center">Amalia Rizqi Marwah (K3519011)</div>
+            <div class="footer-copyright text-center">Efa Setiyani (K3519027)</div>
+            <div class="footer-copyright text-center">Follow Us</div>
+            <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+    </footer>
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"> </script>
+
+</body>
+</html>

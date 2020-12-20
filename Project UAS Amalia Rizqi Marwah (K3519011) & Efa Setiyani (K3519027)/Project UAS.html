@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<title>Garuda Airlindes</title>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="images/logo_garuda2.png" width="150" height="60" class="d-inline-block align-top" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+            		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Flight
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            			<a class="dropdown-item" href="#">
+            				<div class="custom-control custom-radio custom-control-inline">
+            					<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            					<label class="custom-control-label" for="customRadioInline1">One Way</label>
+              				</div>
+              				<div class="custom-control custom-radio custom-control-inline">
+                			<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                			<label class="custom-control-label" for="customRadioInline2">Round Trip</label>
+              				</div>
+                			
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">From</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Jakarta</option>
+                    				<option value="1">Jakarta</option>
+				                    <option value="2">Yogyakarta</option>
+				                    <option value="3">Bali</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">To</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Yogyakarta</option>
+                    				<option value="1">Jakarta</option>
+				                    <option value="2">Yogyakarta</option>
+				                    <option value="3">Bali</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Depart</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Select Date</option>
+                    				<option value="1">One</option>
+				                    <option value="2">Two</option>
+				                    <option value="3">Three</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Return</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>Select Date</option>
+                    				<option value="1">One</option>
+				                    <option value="2">Two</option>
+				                    <option value="3">Three</option>
+				                </select>
+                			</div>
+                			<div class="input-group mb-3">
+                				<div class="input-group-prepend">
+                      				<label class="input-group-text" for="inputGroupSelect01">Person</label>
+                    			</div>
+                    			<select class="custom-select" id="inputGroupSelect01">
+                    				<option selected>1 Person</option>
+                    				<option value="1">1</option>
+				                    <option value="2">2</option>
+				                    <option value="3">3</option>
+				                </select>
+                			</div>
+                			<button type="submit" class="btn btn-primary">Search Flight</button>
+                		</a>
+                	</div>
+                </li>
+                <li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel Information
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              			<a class="dropdown-item" href="Travel Information.html" target="blank">News & Updates</a>
+		                <a class="dropdown-item" href="Travel Information.html" target="blank">Baggage Information</a>
+		                <a class="dropdown-item" href="Travel Information.html" target="blank">Flight Routes</a>
+		                <a class="dropdown-item" href="Travel Information.html" target="blank">Fleet Revitalization</a>
+		                <a class="dropdown-item" href="Travel Information.html" target="blank">Favourite Destination</a>
+            		</div>
+          		</li>
+          		<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Booking
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		              	<a class="dropdown-item" href="Manage Booking.html" target="blank">Booking Status</a>
+		                <a class="dropdown-item" href="Manage Booking.html" target="blank">Fare Types</a>
+		                <a class="dropdown-item" href="Manage Booking.html" target="blank">Payment Guide</a>
+		                <a class="dropdown-item" href="Manage Booking.html" target="blank">Refund Request</a>
+		                <a class="dropdown-item" href="Manage Booking.html" target="blank">Booking change</a>
+		            </div>
+            	</li>
+            	<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Favourite Destination 
+            		</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              			<a class="dropdown-item" href="Favourite Destination.html" target="blank">Ambon</a>
+		                <a class="dropdown-item" href="Favourite Destination.html" target="blank">Bali</a>
+		                <a class="dropdown-item" href="Favourite Destination.html" target="blank">Batam</a>
+		                <a class="dropdown-item" href="Favourite Destination.html" target="blank">Jayapura</a>
+		                <a class="dropdown-item" href="Favourite Destination.html" target="blank">Manado</a>
+            		</div>
+          		</li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header container-fluid">
+    	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    		<ol class="carousel-indicators">
+        		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        	</ol>
+        <div class="carousel-inner">
+          	<div class="carousel-item active">
+          		<img src="images/pramugari.jpg" class="d-block w-100" alt="">
+          	</div>
+          	<div class="carousel-item">
+             	<img src="images/pramugari.jpg" class="d-block w-100" alt="">
+          	</div>
+          	<div class="carousel-item">
+              	<img src="images/pramugari.jpg" class="d-block w-100" alt="">
+          	</div>
+        	</div>
+      	</div>
+  	</header>
+
+  	<div class="features p-3 my-3">
+		<h1>START YOUR AMAZING JOURNEY</h1>
+		<div class="row">
+			<div class="adds1 col-lg-3 col-md-3 col-sm-6">
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					    <div class="carousel-item active" data-interval="10000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item" data-interval="2000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+			</div>
+			<div class="adds2 col-lg-3 col-md-3 col-sm-6">
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					    <div class="carousel-item active" data-interval="10000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item" data-interval="2000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+			</div>
+			<div class="adds3 col-lg-3 col-md-3 col-sm-6">
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					    <div class="carousel-item active" data-interval="10000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item" data-interval="2000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+			</div>
+			<div class="adds4 col-lg-3 col-md-3 col-sm-6">
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					    <div class="carousel-item active" data-interval="10000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item" data-interval="2000">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/yogyakarta.jpg" class="d-block w-100" alt="...">
+					      <h2>Yogyakarta</h2>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="middle container-fluid p-3 my-3">
+		<div class="overlay"></div>
+		<div class="description">
+			<h3>DISCOVER AMAZING INDONESIA</h3>
+			<h4>EXPLORE THE HEAVENS OF ISLANDS</h4>
+			<p>Early bird promotion: Book now to lock in the best fare.
+			</br>Global Support: +01 234 567 8910
+			</br>Cuctomer Service: cs@garuda-airlindes.com
+			</p>
+			<button class = "btn btn-outline-primary btn-lg">BOOK NOW</button>
+		</div>
+	</div>
+
+	<div class="features2 p-3 my-3">
+		<h1>BOOK FLIGHT TICKETS WITH GARUDA INDONESIA' MOST POPULAR ROUTES</h1>
+		<div class="row justify-content-center align-items-center">
+			<div class="card1 mb-3" style="max-width: 540px;">
+				<div class="row no-gutters">
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Jakarta - Bali</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorem</p>
+							<p class="card-text"><small class="text-muted">IDR 900.000</small></p>
+				      	</div>
+				    </div>
+				    <div class="col-md-4">
+				      	<img src="images/bali.jpg" class="card-img" alt="gambar" height="100%">
+				    </div>
+				</div>
+			</div>
+
+			<div class="card2 mb-3" style="max-width: 540px;">
+				<div class="row no-gutters">
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Jakarta - Bali</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorem</p>
+							<p class="card-text"><small class="text-muted">IDR 900.000</small></p>
+				      	</div>
+				    </div>
+				    <div class="col-md-4">
+				      	<img src="images/bali.jpg" class="card-img" alt="gambar" height="100%">
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center align-items-center">
+			<div class="card3 mb-3" style="max-width: 540px;">
+				<div class="row no-gutters">
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Jakarta - Bali</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorem</p>
+							<p class="card-text"><small class="text-muted">IDR 900.000</small></p>
+				      	</div>
+				    </div>
+				    <div class="col-md-4">
+				      	<img src="images/bali.jpg" class="card-img" alt="gambar" height="100%">
+				    </div>
+				</div>
+			</div>
+
+			<div class="card4 mb-3" style="max-width: 540px;">
+				<div class="row no-gutters">
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Jakarta - Bali</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorem</p>
+							<p class="card-text"><small class="text-muted">IDR 900.000</small></p>
+				      	</div>
+				    </div>
+				    <div class="col-md-4">
+				      	<img src="images/bali.jpg" class="card-img" alt="gambar" height="100%">
+				    </div>
+				</div>
+			</div>	
+		</div>
+
+	<footer class="page-footer container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Fly Garuda Indonesia</h6>
+						<p>About Us
+							<br/>Terms of Use
+							<br/>Privacy Policy
+							<br/>FAQ
+							<br/>Contact Us</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Travel Information</h6>
+						<p>News & Updates
+							<br/>Baggage Information
+							<br/>Favourite Destination
+							<br/>Fleet Revitalization
+							<br/>Flight Routes</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Manage Booking</h6>
+						<p>Booking Status
+							<br/>Fare Types
+							<br/>Payment Guide
+							<br/>Refund Request
+							</br> Booking Change</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">Follow Us</div>
+			<div class="footer-copyright text-center">© 2019 Copyright: MyWebsite.com</div>
+	</footer>
+
+	<script src="jquery-3.5.1.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"> </script>
+
+</body>
+</html>
